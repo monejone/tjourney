@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Travel Journal</title>
+
+	<link rel="stylesheet" href="css/travel-journal.css">
+	
+</head>
+<body>
+
+	<div id="main">
+
+		<header>
+
+			<div id="subheader">
+				<h1 id="title">TRAVEL  <br />JOURNAL  <br /></h1>
+			</div>
+
+			<div id="bottombar"></div>
+
+		</header>
+
+		<nav>
+			<ul class="sidebar">
+<!-- Each link open the webpage linked after href="" targeting the iFrame called ifrm, 
+so the page is opened into the frame instead of a new browser page	-->
+				<li class="sidebar-item"><a target="ifrm" href="rome.html" onClick="activateItem(this)">ROME</a></li>
+				<li class="sidebar-item"><a target="ifrm" href="london.html" onclick="activateItem(this)">LONDON</a></li>
+				<li class="sidebar-item"><a target="ifrm" href="none">PARIS</a></li>
+				<li class="sidebar-item"><a target="ifrm" href="none">DUBLIN</a></li>
+				<li class="sidebar-item"><a target="ifrm" href="none">BARCELONA</a></li>
+			</ul>
+		</nav>
+
+		<content>
+<!-- The iFrame is a box that can contain whole external webpages that are linked to 
+the frame by putting the url after src="" -->
+			<iframe src="rome.html" id="frame-one" name="ifrm" width="100%" height="1500px">
+			</iframe>
+		</content>
+
+		<footer>
+		<p id="copyright">Site Design &copy Simone Filardo</p>
+		</footer>
+
+	</div>
+	
+</body>
+</html>
