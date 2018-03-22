@@ -147,19 +147,19 @@ a link to different pages. A list is defined by the tags <ul>...</ul> and each e
 
 /* Resolution change */
 
-@media only screen and (max-width:1600px) {
+@media (max-width:1600px) {
 	#main {width:80%;}
 }
-@media only screen and (max-width:1280px) {
+@media (max-width:1280px) {
 	#main {width:100%;}
 	.sidebar-item a {font-size:20px;}
 }
-@media only screen and (max-width:1024px) {
+@media (max-width:1024px) {
 	.title {text-align:left;display:block;padding-left:20px;font-size:55px;}
 	#main {width:100%;}
 	.sidebar-item a {font-size:20px;padding: 20px 15px 20px 15px;}
 }
-@media only screen and (max-width:800px) {
+@media (max-width:800px) {
 	.title {text-align:left;display:block;padding-left:20px;font-size:50px;}
 	#main {width:100%;}
 	content {width:100%;float:none;}
