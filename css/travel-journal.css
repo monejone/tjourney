@@ -145,7 +145,7 @@ a link to different pages. A list is defined by the tags <ul>...</ul> and each e
 	color:darkred;
 }
 
-/* Resolution change
+/* Resolution change */
 
 @media (max-width:1600px) {
 	#main {width:80%;}
@@ -158,7 +158,7 @@ a link to different pages. A list is defined by the tags <ul>...</ul> and each e
 	.title {text-align:left;display:block;padding-left:20px;font-size:55px;}
 	#main {width:100%;}
 	.sidebar-item a {font-size:20px;padding: 20px 15px 20px 15px;}
-}*/
+}
 @media (max-width:800px) {
 	.title {text-align:left;display:block;padding-left:20px;font-size:50px;}
 	#main {width:100%;}
