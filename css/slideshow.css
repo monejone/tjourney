@@ -75,7 +75,7 @@ h1 {
 
 /*on hover add white background with a little see-through */
 
-.prev:hover, .next:hover {
+.prev:hover, .next:hover, .prev:active, .next:active {
 	background-color:rgba(140,140,140,0.7);
 }
 
