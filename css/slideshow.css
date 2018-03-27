@@ -94,11 +94,6 @@ h1 {
 	text-decoration:none;
 }
 
-.prev:focus, .next:focus {
-	background-color:transparent;
-	text-decoration:none;
-}
-
 /* caption text */
 
 .caption {
