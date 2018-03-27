@@ -89,7 +89,7 @@ h1 {
 
 /*on hover add grey background with a little see-through */
 
-.prev:hover, .next:hover, .prev:active, .next:active {
+.prev:hover, .next:hover, .prev:active, .next:active, .prev:focus, .next:focus {
 	background-color:rgba(140,140,140,0.5);
 	text-decoration:none;
 }
