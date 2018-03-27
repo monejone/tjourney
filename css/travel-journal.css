@@ -85,7 +85,7 @@ header {
 	padding-bottom:0;
 }
 
-content {
+#content {
 	display:block;
 	width:81%;
 	margin-top: 20px;
