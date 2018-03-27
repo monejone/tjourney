@@ -9,17 +9,6 @@
 
 	<link rel="stylesheet" href="css/travel-journal.css">
 	
-	<script>
-	function fix()
-{
-    var el = this;
-    var par = el.parentNode;
-    var next = el.nextSibling;
-    par.removeChild(el);
-    setTimeout(function() {par.insertBefore(el, next);}, 0)
-}
-	</script>
-	
 </head>
 <body>
 
@@ -40,11 +29,11 @@
 			<ul class="sidebar">
 <!-- Each link open the webpage linked after href="" targeting the iFrame called ifrm, 
 so the page is opened into the frame instead of a new browser page	-->
-				<li class="sidebar-item"><a target="ifrm" href="rome.html" title="Dublin Slideshow" ontouchend="this.onclick=fix">ROME</a></li>
-				<li class="sidebar-item"><a target="ifrm" href="london.html" title="Dublin Slideshow"ontouchend="this.onclick=fix">LONDON</a></li>
-				<li class="sidebar-item"><a target="ifrm" href="paris.html" title="Dublin Slideshow" ontouchend="this.onclick=fix">PARIS</a></li>
-				<li class="sidebar-item"><a target="ifrm" href="dublin.hmtl" title="Dublin Slideshow" ontouchend="this.onclick=fix">DUBLIN</a></li>
-				<li class="sidebar-item"><a target="ifrm" href="barcelona.html" title="Barcelona Slideshow" ontouchend="this.onclick=fix">BARCELONA</a></li>
+				<li class="sidebar-item"><a target="ifrm" href="rome.html" title="Dublin Slideshow">ROME</a></li>
+				<li class="sidebar-item"><a target="ifrm" href="london.html" title="Dublin Slideshow">LONDON</a></li>
+				<li class="sidebar-item"><a target="ifrm" href="paris.html" title="Dublin Slideshow">PARIS</a></li>
+				<li class="sidebar-item"><a target="ifrm" href="dublin.hmtl" title="Dublin Slideshow">DUBLIN</a></li>
+				<li class="sidebar-item"><a target="ifrm" href="barcelona.html" title="Barcelona Slideshow">BARCELONA</a></li>
 			</ul>
 		</nav>
 
