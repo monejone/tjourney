@@ -192,13 +192,12 @@ a link to different pages. A list is defined by the tags <ul>...</ul> and each e
 	nav {width:100%;height:auto;}
 	.sidebar-item a {width:100%;font-size:18px;padding: 15px 10px 15px 10px;}
 	.sidebar-item a:hover {
-	font-weight:bold;
-	background-color:#f2f2f2;
 	color:darkred;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
-.sidebar-item a:visited {
-	font-weight:bold;
+	.sidebar-item a:active {
+	color:darkred;
+	}
+	.sidebar-item a:focus {
 	color:darkred;
 	}
 }
