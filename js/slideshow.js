@@ -31,5 +31,5 @@ function fix()
     var par = el.parentNode;
     var next = el.nextSibling;
     par.removeChild(el);
-    setTimeout(function() {par.insertBefore(el, next);}, 0.6)
+    setTimeout(function() {par.insertBefore(el, next);}, 0.1)
 }
