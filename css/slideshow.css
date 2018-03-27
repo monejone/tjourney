@@ -65,28 +65,32 @@ h1 {
 .prev, .next {
 	cursor:pointer;
 	position:absolute;
-	top:50%;
+	top:0;
 	width:auto;
+	height:52vh;
+	transition:0.6s ease;
+}
+
+.arrowp, .arrown {
+	display:inline-block;
+	vertical-align:middle;
 	color:white;
 	font-weight:bold;
 	font-size:22px;
-	transition:0.6s ease;
-	border-radius: 0px 50px 50px 0px;
-	margin-top: -22px;
-	padding: 16px;
+	padding:16px;
+	margin-top:22vh;
 }
 
 /* Next and previous buttons position */
 
 .next {
 	right:0;
-	border-radius:50px 0 0 50px;
 }
 
 /*on hover add grey background with a little see-through */
 
 .prev:hover, .next:hover, .prev:active, .next:active {
-	background-color:rgba(140,140,140,0.7);
+	background-color:rgba(140,140,140,0.5);
 	text-decoration:none;
 }
 
