@@ -139,7 +139,7 @@ a link to different pages. A list is defined by the tags <ul>...</ul> and each e
 	text-align:center;
 	padding: 30px 20px 30px 20px;
 	text-decoration:none;
-	color:#595959;
+	color:black;
 }
 
 .sidebar-item a:hover {
